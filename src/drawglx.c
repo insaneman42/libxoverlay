@@ -1,6 +1,7 @@
 #include "internal/drawglx.h"
 #include <GL/glew.h>
 #include <GL/gl.h>
+#include <xoverlay.h>
 #include <GL/glx.h>
 #include <stdio.h>
 #include <X11/extensions/shape.h>
