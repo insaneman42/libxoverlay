@@ -41,6 +41,6 @@ add_subdirectory(include)
 add_subdirectory(src)
 
 install(TARGETS ${PROJECT_NAME} EXPORT ${PROJECT_NAME} DESTINATION "${lib_dest}")
-install(FILES "include/xoverlay.h" DESTINATION "${include_dest}")
+install(FILES "include/xoverlay.hpp" DESTINATION "${include_dest}")
 install(EXPORT ${PROJECT_NAME} DESTINATION "${lib_dest}")
 install(FILES ${PROJECT_NAME}-config.cmake DESTINATION ${export_dest})
